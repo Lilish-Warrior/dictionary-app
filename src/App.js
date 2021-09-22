@@ -10,7 +10,19 @@ export default function App() {
           <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
         <Dictionary />
-        <footer>Coded by Lilish Warrior</footer>
+        <footer>
+          {" "}
+          <a
+            href="https://github.com/Lilish-Warrior/dictionary-app"
+            className="footer-link"
+          >
+            Open source code{" "}
+          </a>{" "}
+          by{" "}
+          <a href="https://github.com/Lilish-Warrior" className="footer-link">
+            Lilish Warrior{" "}
+          </a>
+        </footer>
       </div>
     </div>
   );

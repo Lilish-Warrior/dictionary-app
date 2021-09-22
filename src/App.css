@@ -13,3 +13,8 @@
   margin: 30px 0;
   font-size: 12px;
 }
+
+.App .footer-link {
+  text-decoration: none;
+  color: #d7516c;
+}
