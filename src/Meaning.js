@@ -6,9 +6,9 @@ export default function Meaning(props) {
       {props.meaning.definitions.map(function (definition, index) {
         return (
           <div key={index}>
-            <p>{definition.definition}</p> <br />
+            <p className="text-capitalize">{definition.definition}</p> <br />
             <p>
-              <em>{definition.example}</em>
+              <em className="text-capitalize">{definition.example}</em>
             </p>
           </div>
         );
