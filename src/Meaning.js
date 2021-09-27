@@ -1,7 +1,7 @@
 import Synonyms from "./Synonyms";
+import "./Meaning.css";
 
 export default function Meaning(props) {
-  console.log(props.meaning);
   return (
     <div className="Meaning">
       <small className="text-uppercase">{props.meaning.partOfSpeech}</small>
@@ -9,11 +9,11 @@ export default function Meaning(props) {
         return (
           <div key={index}>
             <p className="text-capitalize">
-              Definition: {definition.definition}
+              <strong>Definition</strong> <br />
+              {definition.definition}
             </p>{" "}
-            <br />
             <p>
-              <em className="text-capitalize">Example: {definition.example}</em>
+              <em className="example" >Example: {definition.example}</em>
             </p>
             <div>
               <Synonyms synonyms={definition.synonyms} />

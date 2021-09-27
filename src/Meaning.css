@@ -1,0 +1,21 @@
+.Meaning small {
+  color: #d7516b;
+}
+
+.Meaning {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgb(0 0 0 /20%);
+
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.Meaning strong {
+  color: #181d5f;
+}
+
+.Meaning .example {
+  color: #181d5f;
+}
